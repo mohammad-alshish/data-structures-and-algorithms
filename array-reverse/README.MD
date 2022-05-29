@@ -12,8 +12,7 @@ Take list as an argument and reverse it without using any built-in Python revers
 
 
 ## Whiteboard Process
-![](code_challenges/assets/array-reverse.jpg)
-
+[WhiteBoard](CC01.jpg)
 
 
 ## Approach & Efficiency
