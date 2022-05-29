@@ -7,4 +7,4 @@
 
 | **Code Challenge**    | **Subject**   | **Link**                                                                                   |
 |-----------|-----------|-----------------------------------------------------------------------------------------|
-| Class01 |   reverse array    | [Link](https://mohammad-alshish.github.io/data-structures-and-algorithms/array-reverse/README)
+| Class01 |   reverse array    | [Link](https://mohammad-alshish.github.io/data-structures-and-algorithms/array-reverse/array-reverse)
