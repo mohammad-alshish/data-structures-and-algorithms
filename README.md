@@ -8,3 +8,4 @@
 | **Code Challenge**    | **Subject**   | **Link**                                                                                   |
 |-----------|-----------|-----------------------------------------------------------------------------------------|
 | Class01 |   reverse array    | [Link](https://mohammad-alshish.github.io/data-structures-and-algorithms/array-reverse/array-reverse)
+| Class02 |    array insert shift  | [Link](https://mohammad-alshish.github.io/data-structures-and-algorithms/array-insert-shift/array-insert-shift)
