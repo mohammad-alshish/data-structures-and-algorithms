@@ -62,3 +62,4 @@ def test_linked_list_str():
     actual = str(link_list)
     expected = "{a}->{b}->{c}->NULL"
     assert actual == expected
+
