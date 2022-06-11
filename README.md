@@ -13,4 +13,3 @@
 | Class05 |    linked-list  | [Link](https://mohammad-alshish.github.io/data-structures-and-algorithms/linked-list/linked-list)
 
 
-35484516
