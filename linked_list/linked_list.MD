@@ -5,8 +5,8 @@
 
 
 # linked list
-## [Code](linked_list.py)
-## [tests](../tests/test_linked_list.py)
+## [Code](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/linked_list/linked_list.py)
+## [tests](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/tests/test_linked_list.py)
 
 ## Challenge05
 Create two classes, LinkedList and Node. Using test-driven development, implement/test the following features:
