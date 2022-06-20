@@ -13,4 +13,5 @@
 | Class05            |    linked-list  | [Link5](https://mohammad-alshish.github.io/data-structures-and-algorithms/linked_list/linked_list)
 | Class06            |    linked-list-insertions  | [Link6](https://mohammad-alshish.github.io/data-structures-and-algorithms/linked-list-insertions/linked-list-insertions)
 | Class07            |   linked-list-kth  | [Link7](https://mohammad-alshish.github.io/data-structures-and-algorithms/linked-list-kth/linked-list-kth)
+| Class08            |   linked-list-zip  | [Link8](https://mohammad-alshish.github.io/data-structures-and-algorithms/linked_list_zip/linked-list-zip)
 
