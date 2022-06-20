@@ -5,13 +5,17 @@
 
 
 # linked-list-zip
-## [Code](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/linked_list/linked_list.py)
-## [tests](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/tests/test_linked_list.py)
+## [Code](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/linked_list_zip/linked_list_zip.py)
+## [tests](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/tests/test_linked_list_zip.py)
 
 ## Challenge08
 
-[Take two linked lists as inputs, and we want to merge them together so that they alternate between values. If one list is longer than the other, start adding the extra values in order from the linked list that is longer than the other. Return a reference to head of zipped list.
-]()
+[ two linked lists as inputs, 
+and we want to merge them together so that they alternate between values. 
+If one list is longer than the other, 
+start adding the extra values in order from the linked list that is longer than the other. 
+Return a reference to head of zipped list.
+
 
 ## Whiteboard Process
 [WhiteBoard](cc08.jpg)
