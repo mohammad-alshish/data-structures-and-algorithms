@@ -15,8 +15,8 @@ class Stack():
         self.top = node
 
 
-    # Space: O(1)
-    # Time: O(N)
+    # Space: O(N)
+    # Time: O(1)
     def push(self, value):
         node = Node(value)
         node.next = self.top
@@ -53,8 +53,8 @@ class Queue():
         self.front = front
         self.back = None
 
-    # Space: O(1)
-    # Time: O(N)
+    # Space: O(N)
+    # Time: O(1)
     def enqueue(self, value):
         node = Node(value)
         if self.is_empty():
