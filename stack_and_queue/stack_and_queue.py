@@ -1,5 +1,5 @@
 class Node():
-    
+
     # Space: O(1)
     # Time: O(1)
     def __init__(self, value, next = None):
@@ -14,8 +14,9 @@ class Stack():
     def __init__(self, node=None):
         self.top = node
 
+
     # Space: O(1)
-    # Time: O(1)
+    # Time: O(N)
     def push(self, value):
         node = Node(value)
         node.next = self.top
@@ -53,7 +54,7 @@ class Queue():
         self.back = None
 
     # Space: O(1)
-    # Time: O(1)
+    # Time: O(N)
     def enqueue(self, value):
         node = Node(value)
         if self.is_empty():
