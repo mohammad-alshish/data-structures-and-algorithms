@@ -22,6 +22,8 @@ def test_pseudoqueue_enqueue_many():
 def test_pseudoqueue_dequeue_one():
   q = Pseudo_Queue()
   q.enqueue(1)
+  q.enqueue(2)
+  q.enqueue(3)
   actual = q.dequeue()
   expected = 1
   assert actual == expected
@@ -34,5 +36,5 @@ def test_pseudoqueue_dequeue_many():
   q.dequeue()
   q.dequeue()
   actual = q.dequeue()
-  expected = 1
+  expected = 3
   assert actual == expected
