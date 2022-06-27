@@ -14,4 +14,4 @@ class Pseudo_Queue():
         while not self.s1.is_empty():
             val = self.s1.pop()
             self.s2.push(val)
-            return self.s2.pop()
+        return self.s2.pop()
