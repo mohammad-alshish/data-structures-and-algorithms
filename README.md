@@ -16,3 +16,4 @@
 | Class08            |   linked-list-zip  | [Link8](https://mohammad-alshish.github.io/data-structures-and-algorithms/linked_list_zip/linked-list-zip)
 | Class10            |   stack_and_queue | [Link10](https://mohammad-alshish.github.io/data-structures-and-algorithms/stack_and_queue/stack_and_queue)
 | Class11            |   stack_queue_pseudo | [Link11](https://mohammad-alshish.github.io/data-structures-and-algorithms/stack_queue_pseudo/stack_queue_pseudo)
+| Class12            |   stack_queue_animal_shelter | [Link12](https://mohammad-alshish.github.io/data-structures-and-algorithms/stack_queue_animal_shelter/stack_queue_animal_shelter)
