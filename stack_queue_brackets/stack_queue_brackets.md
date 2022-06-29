@@ -6,7 +6,7 @@
 
 # stack-queue-brackets
 
-## [Code](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/stack_queue_brackets/stack_queue_brackets)
+## [Code](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/stack_queue_brackets/stack_queue_brackets.py)
 ## [tests](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/tests/test_stack_queue_brackets.py)
 
 ## Challenge13
