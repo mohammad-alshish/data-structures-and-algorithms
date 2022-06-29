@@ -17,3 +17,4 @@
 | Class10            |   stack_and_queue | [Link10](https://mohammad-alshish.github.io/data-structures-and-algorithms/stack_and_queue/stack_and_queue)
 | Class11            |   stack_queue_pseudo | [Link11](https://mohammad-alshish.github.io/data-structures-and-algorithms/stack_queue_pseudo/stack_queue_pseudo)
 | Class12            |   stack_queue_animal_shelter | [Link12](https://mohammad-alshish.github.io/data-structures-and-algorithms/stack_queue_animal_shelter/stack_queue_animal_shelter)
+| Class13            |   stack_queue_brackets | [Link13](https://mohammad-alshish.github.io/data-structures-and-algorithms/stack_queue_brackets/stack_queue_brackets)
