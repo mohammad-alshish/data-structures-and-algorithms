@@ -5,8 +5,8 @@
 
 
 # stack-queue-animal-shelter
-## [Code](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/stack_and_queue/stack_and_queue.py)
-## [tests](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/tests/test_stack_and_queue.py)
+## [Code](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/stack_queue_animal_shelter/stack_queue_animal_shelter.py)
+## [tests](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/tests/test_stack_queue_animal_shelter.py)
 
 ## Challenge12
 

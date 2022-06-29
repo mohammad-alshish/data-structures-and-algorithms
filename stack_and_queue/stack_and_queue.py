@@ -43,6 +43,16 @@ class Stack():
     def is_empty(self):
         return self.top == None
 
+    def __str__(self):
+        current = self.top
+        items = ''
+
+        while current:
+            items += str(current.value)
+            current = current.next
+
+        return items
+
 
 class Queue():
 
@@ -83,3 +93,12 @@ class Queue():
     # Time: O(1)
     def is_empty(self):
         return self.front == None
+
+    def __str__(self):
+        current = self.front
+        items = ''
+        while current:
+            items += f"{current.value}"
+            current = current.next
+
+        return items
