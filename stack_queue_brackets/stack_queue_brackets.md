@@ -24,5 +24,5 @@ the corresponding opening bracket is popped out from the stack for comparing
 If the stacks ends up being empty at the end, return true.
 
 - I try to keep it simple by using one for loop so we end with complexity as the following:
-1. Space: O(1)
+1. Space: O(N)
 2. Time: O(N)
