@@ -70,6 +70,19 @@ class BinaryTree:
 
         return result
 
+    def find_maximum_value(self):
+        max_value = self.root.value
+        def _walk(root):
+            nonlocal max_value
+            if max_value < root.value:
+                max_value = root.value
+            if root.left:
+                _walk(root.left)
+            if root.right:
+                _walk(root.right)
+        _walk(self.root)
+        return max_value
+
 
 class BinarySearchTree(BinaryTree):
 
@@ -122,14 +135,12 @@ class BinarySearchTree(BinaryTree):
 
 if __name__ == "__main__":
   tree = BinaryTree()
-  tree1 = BinarySearchTree()
-  tree1.root = TNode(10)
-  tree1.root.left = TNode(8)
-  tree1.root.right = TNode(15)
-  tree1.root.left.left = TNode(5)
-  tree1.root.left.right = TNode(7)
-  tree1.root.right.right = TNode(20)
-  tree1.root.right.left = TNode(17)
-  tree1.add(6)
-  print(tree1.pre_order())
-  print(tree1.contains())
+  tree = BinarySearchTree()
+  tree.root = TNode(10)
+  tree.root.left = TNode(8)
+  tree.root.right = TNode(15)
+  tree.root.left.left = TNode(5)
+  tree.root.left.right = TNode(7)
+  tree.root.right.right = TNode(20)
+  tree.root.right.left = TNode(17)
+  print(tree.find_maximum_value())
