@@ -70,7 +70,8 @@ class BinaryTree:
 
         return result
 
-    def find_maximum_value(self):
+    def find_maximum_value(self)->int:
+        """this method is used to find the highest number in tree and return it"""
         max_value = self.root.value
         def _walk(root):
             nonlocal max_value
@@ -139,8 +140,8 @@ if __name__ == "__main__":
   tree.root = TNode(10)
   tree.root.left = TNode(8)
   tree.root.right = TNode(15)
-  tree.root.left.left = TNode(5)
-  tree.root.left.right = TNode(7)
-  tree.root.right.right = TNode(20)
+  tree.root.left.left = TNode(45645)
+  tree.root.left.right = TNode(7456)
+  tree.root.right.right = TNode(2411560)
   tree.root.right.left = TNode(17)
   print(tree.find_maximum_value())
