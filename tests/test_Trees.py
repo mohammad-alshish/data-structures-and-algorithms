@@ -41,30 +41,6 @@ def test_bts_post_order(test_tree):
     expected = ["D", "E", "B", "F", "C", "A"]
     assert actual == expected
 
-
-@pytest.fixture
-def test_tree():
-
-    tree = BinaryTree()
-    bts = BinarySearchTree(tree)
-
-    one = TNode("A")
-    two = TNode("B")
-    three = TNode("C")
-    four = TNode("D")
-    five = TNode("E")
-    six = TNode("F")
-
-    bts.root = one
-    one.left = two
-    one.right = three
-    two.left = four
-    two.right = five
-    three.left = six
-
-    return bts
-
-
 # Binary Search Tree add values
 def test_success_add_node_to_bst(test_bst):
     test_bst.add(13)
@@ -78,6 +54,32 @@ def test_success_bst_contains_value(test_bst):
     assert test_bst.contains(60) == False
     assert test_bst.contains(36) == True
 
+# Find the Maximum Value in a Binary Tree
+def test_find_maxval_bt(test_tree):
+  expected = "F"
+  actual = test_tree.find_maximum_value()
+  assert actual == expected
+
+@pytest.fixture
+def test_tree():
+
+    tree = BinaryTree()
+
+    one = TNode("A")
+    two = TNode("B")
+    three = TNode("C")
+    four = TNode("D")
+    five = TNode("E")
+    six = TNode("F")
+
+    tree.root = one
+    one.left = two
+    one.right = three
+    two.left = four
+    two.right = five
+    three.left = six
+
+    return tree
 
 @pytest.fixture
 def test_bst():
