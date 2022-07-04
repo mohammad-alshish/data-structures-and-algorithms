@@ -30,8 +30,8 @@ We tried to keep our code as simple as possible to the best performance by reduc
 so we end with the following
 
 Big O:
-1. Time complexity => O(N) for both adding a new node and searching for a specific nodeusing recursive.
-2. Space complexity => O(W) for a node addition only, where w is the largest width of the tree
+1. Time complexity => O(N) for both adding a new node and searching for a specific node using recursive.
+2. Space complexity => O(N) for a node addition only, and O(1) for the contains method
 
 
 ## API 
