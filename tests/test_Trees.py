@@ -60,6 +60,11 @@ def test_find_maxval_bt(test_tree):
   actual = test_tree.find_maximum_value()
   assert actual == expected
 
+def test_breadth_first(test_tree):
+  expected = ["A","B","C","D","E","F"]
+  actual = test_tree.breadth_first()
+  assert actual == expected
+
 @pytest.fixture
 def test_tree():
 
@@ -71,6 +76,7 @@ def test_tree():
     four = TNode("D")
     five = TNode("E")
     six = TNode("F")
+    #seven = TNode("G")
 
     tree.root = one
     one.left = two
@@ -78,6 +84,7 @@ def test_tree():
     two.left = four
     two.right = five
     three.left = six
+    #three.right = seven
 
     return tree
 
