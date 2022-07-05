@@ -1,3 +1,6 @@
+from stack_and_queue.stack_and_queue import Queue
+
+
 class TNode():
     """This the constructor for the tree node"""
     def __init__(self, value):
@@ -84,6 +87,21 @@ class BinaryTree:
         _walk(self.root)
         return max_value
 
+    def breadth_first(self) -> list:
+        """this method is using Queue methods to loop through the tree and add the values to our list (it's pre-order + fitst-in first-out concept) """
+        breadth_queue = Queue()
+        list = []
+        breadth_queue.enqueue(self.root)
+
+        while not breadth_queue.is_empty():
+            front = breadth_queue.dequeue()
+            list.append(front.value)
+            if front.left:
+                breadth_queue.enqueue(front.left)
+            if front.right:
+                breadth_queue.enqueue(front.right)
+        return list
+
 
 class BinarySearchTree(BinaryTree):
 
@@ -135,13 +153,18 @@ class BinarySearchTree(BinaryTree):
 
 
 if __name__ == "__main__":
+
   tree = BinaryTree()
-  tree = BinarySearchTree()
-  tree.root = TNode(10)
-  tree.root.left = TNode(8)
-  tree.root.right = TNode(15)
-  tree.root.left.left = TNode(45645)
-  tree.root.left.right = TNode(7456)
-  tree.root.right.right = TNode(2411560)
-  tree.root.right.left = TNode(17)
-  print(tree.find_maximum_value())
+  # tree = BinarySearchTree()
+  tree.root = TNode(2)
+  tree.root.left = TNode(7)
+  tree.root.right = TNode(5)
+  tree.root.left.left = TNode(2)
+  tree.root.left.right = TNode(6)
+  tree.root.right.right = TNode(8)
+  tree.root.right.left = TNode(9)
+  tree.root.right.right.right = TNode(4)
+  tree.root.right.right.right.right = TNode(7)
+  tree.root.right.right.right.right.right = TNode(15)
+
+  print(tree.breadth_first())
