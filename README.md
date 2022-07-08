@@ -21,3 +21,4 @@
 | Class15            | Binary Tree and BST      | [Link15](https://mohammad-alshish.github.io/data-structures-and-algorithms/Trees/Trees)
 | Class16            | Binary Tree max value    | [Link16](https://mohammad-alshish.github.io/data-structures-and-algorithms/tree-max/tree_max)
 | Class17            | Breadth-first Traversal  | [Link17](https://mohammad-alshish.github.io/data-structures-and-algorithms/tree-breadth-first/tree_breadth_first)
+| Class18            | tree_fizz_buzz  | [Link18](https://mohammad-alshish.github.io/data-structures-and-algorithms/tree_fizz_buzz/tree_fizz_buzz)
