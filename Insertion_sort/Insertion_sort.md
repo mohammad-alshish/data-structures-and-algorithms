@@ -7,7 +7,7 @@
 
 ## [Code in Python](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/Insertion_sort/Insertion_sort.py)
 ## [tests](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/tests/test_Insertion_sort.py)
-## [Code Tracing](https://mohammad-alshish.github.io/data-structures-and-algorithms/Insertion_sort/Trace)
+## [Code Tracing](https://mohammad-alshish/data-structures-and-algorithms/blob/main/Insertion_sort/Trace.md)
 
 ## -Assignment
 

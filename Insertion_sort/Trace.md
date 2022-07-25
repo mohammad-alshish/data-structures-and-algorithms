@@ -109,4 +109,5 @@
 
 - Time: O(n^2)
     - The number of iterations in this code depends on the input array's length. we have inner loop and outer loop also
+- Space: O(1)
     - The array is being sorted in place. Therefore, no additional space is being utilized. 
