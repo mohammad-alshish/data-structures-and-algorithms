@@ -1,7 +1,6 @@
 # Insertion Sort.
 
 
-
 ## -Language: `Python`
 ## -Challenge Type:  Code Challenge / Tracing a Pseudocode 
 

@@ -23,3 +23,4 @@
 | Class17            | Breadth-first Traversal    | [Link17](https://mohammad-alshish.github.io/data-structures-and-algorithms/tree-breadth-first/tree_breadth_first)                 |
 | Class18            | tree_fizz_buzz             | [Link18](https://mohammad-alshish.github.io/data-structures-and-algorithms/tree_fizz_buzz/tree_fizz_buzz)                         |
 | Class19            | Insertion Sort             | [Link19](https://mohammad-alshish.github.io/data-structures-and-algorithms/Insertion_sort/Insertion_sort)                         |
+| Class20            | Merge Sort                 | [Link20](https://mohammad-alshish.github.io/data-structures-and-algorithms/merge_sort/merge_sort)                                 |
