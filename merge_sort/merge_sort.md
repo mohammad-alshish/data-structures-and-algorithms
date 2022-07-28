@@ -52,7 +52,7 @@ Once you are done with your article, code a working, tested implementation of Me
 
 ## -Whiteboard Process
 
- ![WHITEBOARD](ccc20.jpg)
+ ![WHITEBOARD](CCC25.jpg)
 
 ## -Approach & Efficiency
 
