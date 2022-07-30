@@ -5,7 +5,7 @@
 
 ## [Code in Python](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/quick_sort/quick_sort.py)
 ## [tests](https://github.com/mohammad-alshish/data-structures-and-algorithms/blob/main/tests/test_quick_sort.py)
-## [Code Tracing](https://mohammad-alshish.github.io/data-structures-and-algorithms/quick_sortt/quick_sort_trace)
+## [Code Tracing](https://mohammad-alshish.github.io/data-structures-and-algorithms/quick_sort/quick_sort_trace)
 
 ## -Assignment
 Quick Sort
