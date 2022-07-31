@@ -48,21 +48,21 @@ Once you are done with your article, code a working, tested implementation of Qu
         arr[low] <-- temp
 ## -Whiteboard Process
 
- ![WHITEBOARD](CCC25.jpg)
+ ![WHITEBOARD](CCC27.jpg)
 
 ## -Approach & Efficiency
 
 >Big(O)
->>- Time  == O(nlog(n))
->>- Space == O(log(n))
+>>- Time  == O(n^2)
+>>- Space == O(n)
 >>- **Note: you will find the description in the Trace**
 
 ## -Solution
 - Algorithm
 
 1. def quick sort function which take  array,left,right  as input.
-2. use if statmrnt to make sure that left is less than right.
-3. change the positin and return array
+2. use if statment to make sure that left is less than right.
+3. change the position and return array
 4. define the partition function.
 5. fine the pivot point use for loop to go through the numbers in range of the array
 6. using swap function to change the position of the numbers if the left is more than the right

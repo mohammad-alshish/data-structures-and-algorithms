@@ -77,5 +77,5 @@ ALGORITHM Swap(arr, i, low)
 4. Finally, we set arr[low] to equal temp. 
                  
 ### Efficieny:
-1. Time: O(nlog(n)): Time will be proportional to the number of digits in n.
-2. Space: O(log(n)): logarithmic complexity - happens with functions that deal with recursion. Space increases by k/2.  
+1. Time: O(n^2): Time will be proportional to the number of digits in n.
+2. Space: O(n): logarithmic complexity - happens with functions that deal with recursion. Space increases by k/2.  
