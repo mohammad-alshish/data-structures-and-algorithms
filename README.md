@@ -25,3 +25,4 @@
 | Class19            | Insertion Sort             | [Link19](https://mohammad-alshish.github.io/data-structures-and-algorithms/Insertion_sort/Insertion_sort)                         |
 | Class20            | Merge Sort                 | [Link20](https://mohammad-alshish.github.io/data-structures-and-algorithms/merge_sort/merge_sort)                                 |
 | Class21            | Quick Sort                 | [Link21](https://mohammad-alshish.github.io/data-structures-and-algorithms/quick_sort/quick_sort)                                 |
+| Class22            | Hash Table                 | [Link22](https://mohammad-alshish.github.io/data-structures-and-algorithms/hash_tables/hash_tables)                               |
