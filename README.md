@@ -23,4 +23,4 @@
 | Class20            | Merge Sort                 | [Link20](https://mohammad-alshish.github.io/data-structures-and-algorithms/merge_sort/merge_sort)                                 |
 | Class21            | Quick Sort                 | [Link21](https://mohammad-alshish.github.io/data-structures-and-algorithms/quick_sort/quick_sort)                                 |
 | Class22            | Hash Table                 | [Link22](https://mohammad-alshish.github.io/data-structures-and-algorithms/hash_tables/hash_tables)                               |
-| Class23            | Left Join                  | [Link23](https://mohammad-alshish.github.io/data-structures-and-algorithms/left_join/left_join)                                   |
+| Class23            | Repeated word              | [Link23](https://mohammad-alshish.github.io/data-structures-and-algorithms/repeat_word/repeat_word)                               |
