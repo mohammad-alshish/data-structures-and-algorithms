@@ -24,3 +24,4 @@
 | Class21            | Quick Sort                 | [Link21](https://mohammad-alshish.github.io/data-structures-and-algorithms/quick_sort/quick_sort)                                 |
 | Class22            | Hash Table                 | [Link22](https://mohammad-alshish.github.io/data-structures-and-algorithms/hash_tables/hash_tables)                               |
 | Class23            | Repeated word              | [Link23](https://mohammad-alshish.github.io/data-structures-and-algorithms/repeat_word/repeat_word)                               |
+| Class23            | Tree Intersection          | [Link24](https://mohammad-alshish.github.io/data-structures-and-algorithms/tree_intersection/tree_intersection)                   |
