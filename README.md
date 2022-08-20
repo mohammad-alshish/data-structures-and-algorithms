@@ -26,3 +26,4 @@
 | Class23            | Repeated word              | [Link23](https://mohammad-alshish.github.io/data-structures-and-algorithms/repeat_word/repeat_word)                               |
 | Class24            | Tree Intersection          | [Link24](https://mohammad-alshish.github.io/data-structures-and-algorithms/tree_intersection/tree_intersection)                   |
 | Class25            | Left Join                  | [Link25](https://mohammad-alshish.github.io/data-structures-and-algorithms/left_join/left_join)                                   |
+| Class26            | Graphs                     | [Link26](https://mohammad-alshish.github.io/data-structures-and-algorithms/graphs/graphs)                                         |
