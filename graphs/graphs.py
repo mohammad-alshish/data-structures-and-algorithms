@@ -46,6 +46,24 @@ class Graph:
     def __str__(self):
         return str(self._adj_list)
 
+    def breadth_first(self, vertex):
+        nodes = []
+        breadth = [vertex]
+        visited = set()
+
+        visited.add(vertex)
+
+        while breadth:
+            front = breadth.pop(0)
+            nodes.append(front)
+
+            for neighbor in self.get_neighbors(front):
+                if neighbor.vertex not in visited:
+                    visited.add(neighbor)
+                    breadth.append(neighbor.vertex)
+
+        return nodes
+
 
 if __name__ == "__main__":
     graph = Graph()
